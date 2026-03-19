@@ -1,0 +1,51 @@
+title: Creștere Continuă
+description: Jurnal de dezvoltare personală - învățare, reflecții, progres
+author: Lucian
+email: your-email@example.com
+url: "https://lucian23.github.io"
+baseurl: "/personal-blog"
+
+# Social links
+github_username: lucian23
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Posts settings
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+# Navigation
+header_pages:
+  - about.md
+  - archives.md
+
+# Lang
+lang: ro-RO
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Lucian"
+
+# Date format
+date_format: "%d %B %Y"
+
+# Timezone
+timezone: Europe/Bucharest

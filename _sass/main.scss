@@ -1,0 +1,41 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles */
+.post-excerpt {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.post-tags {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e8e8e8;
+  
+  .tag {
+    display: inline-block;
+    background: #f1f8ff;
+    color: #0366d6;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    margin-right: 0.3rem;
+    font-size: 0.85em;
+  }
+}
+
+.category {
+  text-transform: capitalize;
+  color: #6a737d;
+}
+
+.post-meta {
+  color: #6a737d;
+  font-size: 0.9rem;
+}
+
+/* Romanian date format */
+time[datetime] {
+  text-transform: capitalize;
+}
