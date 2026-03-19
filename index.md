@@ -16,8 +16,6 @@ Bine ai venit în jurnalul meu de dezvoltare personală. Aici scriu despre:
 
 ---
 
-## Despre acest blog
-
 Acesta este un spațiu de reflecție și creștere. Nu un tutorial, nu un ghid — doar însemnări pe drumul devenirii.
 
 [Despre mine →]({{ '/about/' | relative_url }})
