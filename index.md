@@ -16,18 +16,8 @@ Bine ai venit în jurnalul meu de dezvoltare personală. Aici scriu despre:
 
 ---
 
-## Ultimele postări
-
-{% for post in site.posts limit:5 %}
-### [{{ post.title }}]({{ post.url }})
-{{ post.date | date: "%d %B %Y" }}
-{{ post.excerpt }}
-{% endfor %}
-
----
-
 ## Despre acest blog
 
 Acesta este un spațiu de reflecție și creștere. Nu un tutorial, nu un ghid — doar însemnări pe drumul devenirii.
 
-[Despre mine →](/about/)
+[Despre mine →]({{ '/about/' | relative_url }})

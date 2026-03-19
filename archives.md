@@ -12,7 +12,7 @@ permalink: /archives/
 ## {{ year.name }}
 
 {% for post in year.items %}
-- {{ post.date | date: "%d %B" }} — [{{ post.title }}]({{ post.url }}){% if post.categories %} • {{ post.categories | join: ", " }}{% endif %}
+- {{ post.date | date: "%d %B" }} — [{{ post.title }}]({{ post.url | relative_url }}){% if post.categories %} • {{ post.categories | join: ", " }}{% endif %}
 {% endfor %}
 
 {% endfor %}
