@@ -2,6 +2,8 @@
 
 > Jurnal de dezvoltare personală
 
+🌐 **Live:** https://vreau.id
+
 ## Structură
 
 ```
@@ -11,17 +13,11 @@ personal-blog/
 ├── _layouts/         # Layout-uri HTML
 ├── _sass/            # Stiluri SCSS
 ├── assets/           # CSS compilat
-├── index.md          # Pagina principală
+├── index.html        # Pagina principală
 ├── about.md          # Despre mine
-└── archives.md       # Arhiva postărilor
+├── archives.md       # Arhiva postărilor
+└── CNAME             # Domeniu custom (vreau.id)
 ```
-
-## Publicare pe GitHub Pages
-
-1. Creează repo nou pe GitHub: `lucian23.github.io` (sau alt nume)
-2. Push la acest folder
-3. Settings → Pages → Source: main branch
-4. Așteaptă câteva minute
 
 ## Scrie o postare
 
@@ -48,7 +44,7 @@ Text după break (pentru excerpt).
 ```bash
 bundle install
 bundle exec jekyll serve
-# → http://localhost:4000/personal-blog/
+# → http://localhost:4000/
 ```
 
 ## Licență
